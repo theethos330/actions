@@ -18,12 +18,12 @@ Here is a simple workflow that runs on every push to the repository:
 name: CI Example
 on: [push]
 jobs:
-	build:
-		runs-on: ubuntu-latest
-		steps:
-			- uses: actions/checkout@v4
-			- name: Run a one-line script
-				run: echo "Hello, GitHub Actions!"
+  build:
+	runs-on: ubuntu-latest
+	steps:
+      - uses: actions/checkout@v4
+	  - name: Run a one-line script
+		  run: echo "Hello, GitHub Actions!"
 ```
 
 ### Getting Started
