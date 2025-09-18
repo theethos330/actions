@@ -40,7 +40,7 @@ jobs:
           name: dragon-text-file
 
       - name: Read file
-        run: cat README.md
+        run: cat dragon.txt
 
       - name: Deploy
         run: echo Deploying ... .. .
