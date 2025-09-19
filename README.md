@@ -32,4 +32,4 @@ jobs:
 2. Add a YAML file (e.g., `first-example.yml`) with your workflow definition.
 3. Push your changes to GitHub. The workflow will run automatically based on the triggers you define.
 
-For more information, see the [GitHub Actions documentation](https://docs.github.com/en/actions).
+For more information, see the [GitHub Actions documentation](https://docs.github.com/en/actions)
